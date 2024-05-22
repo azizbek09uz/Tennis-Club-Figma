@@ -1,0 +1,288 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --sariq: #F7ECE1;
+    --binafsha: rgba(141, 134, 201, 1);
+}
+
+
+/* introduction */
+
+.introduction{
+    height: 1000px;
+    background: url(../img/Rectangle\ 26\ \(2\).png) no-repeat center;
+    background-size: cover;
+}
+.nav{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px 0;
+}
+.nav p{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.introduction .about h1{
+    line-height: 67.2px;
+    font-weight: 700;
+}
+.video-player .img{
+    background-color: #8D86C9;
+}
+.introduction .box{
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #8D86C9;
+}
+.introduction .flex-column{
+    height: 910px;
+}
+.nav .social-media i{
+    cursor: pointer;
+}
+.logo img{
+    cursor: pointer;
+}
+.video-player{
+    cursor: pointer;
+}
+
+
+/* section */
+
+.section .container{
+    padding: 150px 0;
+}
+.news{
+    margin-bottom: 350px;
+}
+.news .box{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 27px;
+    height: 450px;
+}
+.news .box:first-child{
+    background: url(../img/Rectangle\ 39.png) no-repeat center;
+    height: 450px;
+}
+.news .box:not(:first-child, :last-child){
+    background: url(../img/Rectangle\ 41.png) no-repeat center;
+}
+.news .box:last-child{
+    background: url(../img/Rectangle\ 43.png) no-repeat center;
+}
+.about-club .right-box{
+    background-color: var(--sariq);
+}
+.right-box p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.about-club .left-box{
+    transform: scale(1.4);
+}
+.group{
+    margin-top: 350px;
+    margin-bottom: 150px;
+}
+.left-right i{
+    cursor: pointer;
+    background-color: rgba(141, 134, 201, 1);
+}
+.group h2{
+    font-weight: 700;
+}
+.group .actors{
+    font-weight: 600;
+    margin-top: 100px;
+}
+.actors p{
+    font-weight: 400;
+}
+.actors .actor{
+    cursor: pointer;
+}
+.section-bottom h2{
+    font-weight: 700;
+}
+.prices .box{
+    cursor: pointer;
+    color: white;
+    padding: 10px 40px;
+    background-color: var(--binafsha);
+    font-weight: 600;
+    font-size: 21px;
+}
+.cafe-img{
+    height: 330px;
+}
+.cafe-img .img{
+    height: 100%;
+    background: url(../img/Rectangle\ 39\ \(2\).png) no-repeat center;
+    background-size: cover;
+}
+
+/* footer */
+
+.footer{
+    padding: 40px 0;
+    background-color: var(--sariq);
+}
+.footer p{
+    color: black;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 500;
+}
+.safe p{
+    opacity: 0.3;
+}
+.social-media a{
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer .social-media i{
+    cursor: pointer;
+    color: var(--binafsha);
+}
+
+
+/* news-about-club */
+
+
+.news-about-club{
+    height: 263px;
+    background: url(../img/Rectangle\ 26.png) no-repeat center;
+    background-size: cover;
+}
+.news-about-club h1{
+    font-weight: 700px;
+    font-size: 48px;
+}
+
+/* news-about-tennis */
+
+.news-about-tennis .container{
+    padding: 100px 0;
+}
+.news-about-tennis .box{
+    cursor: pointer;
+    border: 1px solid rgba(247, 236, 225, 1);
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+.news-about-tennis p{
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 14px;
+}
+.news-about-tennis h4{
+    font-size: 21px;
+}
+.news-about-tennis .button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    background-color: var(--binafsha);
+    gap: 10px;
+}
+
+
+
+/* about-club */
+
+.about-club{
+    height: 263px;
+    background: url(../img/Rectangle\ 26\ \(1\).png) no-repeat center;
+    background-size: cover;
+}
+
+/* club-rules */
+
+
+.photo-card h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+.club-rules .container{
+    padding: 100px 0;
+}
+.photo-card .img{
+    margin-top: 100px;
+    border: 1px solid var(--sariq);
+}
+.photo{
+    height: 450px;
+    display: flex;
+    align-items: end;
+    padding: 40px 80px;
+    background: url(../img/Rectangle\ 39\ \(9\).png) no-repeat center;
+}
+.photo button{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: var(--binafsha);
+    color: white;
+    border: none;
+}
+
+/* about-club-rules */
+
+
+.about-club-rule{
+    margin-bottom: 100px;
+}
+.about-club-rule h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.number h3{
+    color: var(--binafsha);
+    font-size: 60px;
+}
+.number p{
+    font-weight: 700;
+}
+.boxes .right-box{
+    background-color: var(--sariq);
+}
+.boxes .left-box{
+    transform: scale(1.2);
+}
+.about-club-rule{
+    margin-top: 100px;
+}
+
+/* rules */
+
+.rules h2{
+    margin-bottom: 100px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.right-box .text .p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.tk span{
+    width: 20px;
+    height: 2px;
+    background-color: var(--binafsha);
+}
+.rules .left-box h4{
+    font-size: 21px;
+    font-weight: 600;
+}
+.left-box .p{
+    color: var(--binafsha);
+}
